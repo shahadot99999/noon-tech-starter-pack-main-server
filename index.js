@@ -82,3 +82,5 @@ app.get('/', async(req, res)=>{
 })
 
 app.listen(port, ()=>console.log(`Reading blog running on ${port}`));
+
+//git remote set-url origin https://github.com/shahadot99999/noon-tech-starter-pack-main-server.git
