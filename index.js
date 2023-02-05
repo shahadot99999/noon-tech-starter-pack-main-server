@@ -21,7 +21,7 @@ var uri = `mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@ac-cisbqkw-sh
 console.log(uri);
 MongoClient.connect(uri, function(err, client) {
  // const collection = client.db("test").collection("devices");
-  // perform actions on the collection object
+ 
   client.close();
 });
 
@@ -83,4 +83,7 @@ app.get('/', async(req, res)=>{
 
 app.listen(port, ()=>console.log(`Reading blog running on ${port}`));
 
+//git remote add origin https://github.com/shahadot99999/noon-tech-starter-pack-main-server.git
+
+//git add origin git@github.com:shahadot99999/noon-tech-starter-pack-main-server.git
 //git remote set-url origin https://github.com/shahadot99999/noon-tech-starter-pack-main-server.git
