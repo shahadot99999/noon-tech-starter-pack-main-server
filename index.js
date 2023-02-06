@@ -83,7 +83,9 @@ app.get('/', async(req, res)=>{
 
 app.listen(port, ()=>console.log(`Reading blog running on ${port}`));
 
-//git remote add origin https://github.com/shahadot99999/noon-tech-starter-pack-main-server.git
 
-//git add origin git@github.com:shahadot99999/noon-tech-starter-pack-main-server.git
-//git remote set-url origin https://github.com/shahadot99999/noon-tech-starter-pack-main-server.git
+//git remote rm origin
+//git remote add origin your url
+//git push -u origin main
+//git remote add origin https://github.com/shahadot99999/noon-tech-starter-pack-main-server.git
+//git push -u origin main
